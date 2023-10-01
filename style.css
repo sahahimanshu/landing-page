@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%  ;
+    overflow: hidden;
+}
+#main{    
+height: 100%;
+width: 100%;
+background-color:rgb(94 64 78);
+display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(123,114,117,0.393);
+    background-image: url(ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(131,119,122,0.5)
+
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color:green; */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0 ,-50%);
+
+}
+#text-div>h1{
+    font-size: 91px;
+    font-family: monument;
+    font-weight:800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: white;
+}
+#small-img{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%) ;
+    background-image: url(rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#over-lay{
+     height: 100%;
+    width: 100%;
+    background-color:rgba(131,119,122,0.5);
+
+}
+#vertical-text{
+position: absolute;
+transform: rotate(90deg);
+right: -40%;
+top: 5%;
+transform-origin: 0% 0%;
+}
+#vertical-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: transparent;
+    
+    letter-spacing: 10px;
+   
+    font-family: momument;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #ffffff;
+
+
+}
+#navbarr{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 7%;
+    top: 5%;
+
+
+}
+#navbarr img{
+    height: 60px;
+}
+#navbarr h5{
+     font-size: 20px;
+     color: #ffffff;
+     font-family: gilroy;
+}
